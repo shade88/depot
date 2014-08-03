@@ -8,4 +8,8 @@ class Product < ActiveRecord::Base
       # URL должен указывать на изображение формата GIF, JPG или PNG
   }
   #validates :description, length: {minimum: 9}
+
+  def self.latest
+    Product.order(:updated_at).last
+  end
 end

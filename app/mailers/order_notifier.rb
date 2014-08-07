@@ -9,7 +9,7 @@ class OrderNotifier < ActionMailer::Base
   def received(order)
     @order = order
 
-    mail to: order.email, subject: 'Подтверждение заказа в Pragmatic Store'
+    mail to: order.email, subject: 'Pragmatic Store Order Confirmation'
   end
 
 

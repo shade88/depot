@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-name: Dave Thomas
+one:
+  name: Dave Thomas
   address: MyText
   email: dave@example.org
   pay_type: Check

@@ -43,5 +43,4 @@ Depot::Application.configure do
           "secret",
       enable_starttls_auto: true
   }
-
 end
